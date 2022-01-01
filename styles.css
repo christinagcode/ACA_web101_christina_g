@@ -21,6 +21,7 @@ header {
         grid-template-columns: 40% 60%;
         width: 100%;
         background-color: #333140;
+        background-image: url("assets/banner_test.png");
       }
   
 main {  
