@@ -1,0 +1,33 @@
+*{
+    border: 1px solid red;
+    
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    width: 38%;
+    height: auto;
+    grid-template-areas:
+        "a c"
+        "b c";
+    margin: auto;
+}
+
+.a {
+    grid-area: a;
+    width: 211px;
+    height: 413px;
+}
+
+.b {
+    grid-area: b;
+    width: 211px;
+    height: 413px;
+}
+
+.c {
+    grid-area: c;
+    width: 400px;
+    height: 826px;
+}
