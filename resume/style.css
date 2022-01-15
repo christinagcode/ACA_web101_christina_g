@@ -1,3 +1,5 @@
+
+
 .container {
     display: grid;
     justify-content: center;
@@ -24,6 +26,7 @@
    }
 
 .main {
+    border: 1px solid red;
     grid-area: c;
     width: 400px;
     height: 826px;
@@ -35,6 +38,7 @@ h1 {
     color: white;
     font-weight: 700;
     font-size: 70px;
+    margin: auto;
 }
 
 h2 {
@@ -55,6 +59,7 @@ h4{
     font-family: 'Julius Sans One', sans-serif;
     color: white;
     font-size: 20px;
+    margin: auto;
     
 }
 
@@ -72,12 +77,23 @@ li {
 }
 
 .article-1 {
+    
     width: 180px;
     margin: auto;
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
-.contact {
-    padding: 0 0 0 -10px;
+.contact {border: 1px solid red;
     margin: auto;
+}
+
+.work {border: 1px solid red;
+    margin: auto;
+    padding: 0px;
+}
+
+.mid {
+    border: 1px solid red;
+    height: 200px;
+    line-height: 61px;
 }
