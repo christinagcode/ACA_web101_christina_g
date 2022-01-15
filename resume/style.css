@@ -20,14 +20,33 @@
     height: 413px;
 }
 
-.b {
+
+.article-1 {
     grid-area: b;
     width: 211px;
     height: 413px;
-}
+    background-color: #210140;
+   }
 
 .c {
     grid-area: c;
     width: 400px;
     height: 826px;
+    background-color: #D9B8B8;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 15px;
 }
