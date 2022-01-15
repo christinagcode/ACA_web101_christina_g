@@ -26,7 +26,6 @@
    }
 
 .main {
-    border: 1px solid red;
     grid-area: c;
     width: 400px;
     height: 826px;
@@ -52,7 +51,7 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 h4{
@@ -64,9 +63,11 @@ h4{
 }
 
 .line {
+    border: 1px solid red;
     background-color: #210140;
     width: 340px;
     height: 2px;
+    margin-bottom: -5px;
 }
 
 li {
@@ -83,17 +84,36 @@ li {
     padding: 10px 0 0 0;
 }
 
-.contact {border: 1px solid red;
+.contact {border: 1px;
     margin: auto;
 }
 
-.work {border: 1px solid red;
+.work {border: 1px;
     margin: auto;
     padding: 0px;
 }
 
 .mid {
-    border: 1px solid red;
-    height: 200px;
+    border: 1px;
+    height: 160px;
     line-height: 61px;
+    padding: 40px 5px 0 30px;
+    
 }
+
+.mid-2 {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding: 0 20px 10px;
+}
+
+.mid-3 {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding: 0 20px 10px;
+}
+
