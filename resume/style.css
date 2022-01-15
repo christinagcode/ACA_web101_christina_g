@@ -62,8 +62,20 @@ h4{
     
 }
 
+h5 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
 .line {
-    border: 1px solid red;
     background-color: #210140;
     width: 340px;
     height: 2px;
@@ -102,18 +114,32 @@ li {
 }
 
 .mid-2 {
-    border: 1px solid red;
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
-    padding: 0 20px 10px;
+    padding-left: 20px;
+    margin-bottom: -15px;
+}
+
+.workhistory {
+  
 }
 
 .mid-3 {
+    border: 1px solid blue;
+}
+
+.inner-mid-3 {
     border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
-    padding: 0 20px 10px;
+    padding-left: 20px;
+    margin-bottom: -15px;
 }
 
+.lead {
+    margin: auto;
+    border: 1px solid red;
+}
