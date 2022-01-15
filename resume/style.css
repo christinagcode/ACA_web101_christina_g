@@ -25,7 +25,7 @@
     background-color: #210140;
    }
 
-.main {
+.container-3 {
     grid-area: c;
     width: 400px;
     height: 826px;
@@ -69,17 +69,12 @@ h5 {
     margin: auto;
 }
 
-h6 {
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 15px;
-}
-
 .line {
     background-color: #210140;
-    width: 340px;
+    width: 320px;
     height: 2px;
     margin-bottom: -5px;
+    margin-top: 25px;
 }
 
 li {
@@ -114,7 +109,21 @@ li {
 }
 
 .mid-2 {
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    padding-left: 20px;
+    margin-top: 13px;
+    margin-bottom: -15px;
+}
+
+.mid-title {
+  margin-left: 20px;
+  margin-bottom: -10px;
+
+}
+
+.inner-inner-mid-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
@@ -122,24 +131,17 @@ li {
     margin-bottom: -15px;
 }
 
-.workhistory {
-  
+.job {
+    font-family: 'Julius Sans One', sans-serif;
+    color:#210140;
+    font-size: 16px;
+    margin: auto;
 }
 
-.mid-3 {
-    border: 1px solid blue;
-}
-
-.inner-mid-3 {
-    border: 1px solid red;
+.inner-inner-mid-4 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
     padding-left: 20px;
     margin-bottom: -15px;
-}
-
-.lead {
-    margin: auto;
-    border: 1px solid red;
 }
